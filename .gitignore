@@ -1,0 +1,25 @@
+# Python 运行时缓存（自动生成，不同 Python 版本不兼容）
+__pycache__/
+*.py[cod]
+
+# 虚拟环境（体积大且与本机路径绑定，别人 clone 后自己创建）
+.venv/
+venv/
+env/
+
+# 密钥与环境变量：绝对不能提交
+.env
+.env.*
+
+# IDE 与编辑器个人配置
+.idea/
+.vscode/
+
+# 系统文件与日志
+.DS_Store
+Thumbs.db
+*.log
+
+# 大体积音频：43MB，代码中未引用
+# 11.png / 鸟.mp3 / 山水.mp4 被 02 脚本引用，需要提交
+*.flac
